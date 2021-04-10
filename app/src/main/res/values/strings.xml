@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Film Go</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <dimen name="corner_radius">12dp</dimen>
+    <dimen name="corner_radius_mini">6dp</dimen>
+    <string name="title_activity_menu">Главная</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Film Go</string>
+    <string name="nav_header_subtitle">saymovalibek1530@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <string name="bannerMini">ca-app-pub-3515532447982937/1188980475</string>
+    <string name="BANNER">ca-app-pub-3515532447982937/2585822628</string>
+    <string name="ReklamaPop">ca-app-pub-3515532447982937~6441307158</string>
+
+
+    <string name="politika1">Политика Конфиденциальности</string>
+    <string name="politika2">Приложения Film Go</string>
+    <string name="politika3">Краткое описание</string>
+    <string name="politika4">Настоящая Политика Конфиденциальности применяется к пользователям в любой точке мира
+        которые пользуются приложением Film Go. Эта Политика объясняет как приложение собирает информацию о вас, о вашем
+        устройстве и как мы её используем. Настоятельно рекомендуем прочитать Политику Конфиденциальности и в случаи
+        несогласия, вы должны будете удалить это приложение с вашего устройства или отказаться от его скачивания и
+        дальнейшего использования.
+    </string>
+    <string name="politika5">Какую информацию мы собираем</string>
+    <string name="politika6">Приложение Film Go не содержит регистрацию пользователей, а значит, не собирает контактные
+        и личные данные пользователей. Также приложение не может отслеживать месторасположение пользователя или другие
+        данные GPS. В приложении отсутствуют инструменты GPS.
+        Тем не менее, в консоли разработчика Google Play доступны данные, такие как модели устройства и страна. Это
+        никак не связано с приложением. Эти данные доступны администратору для выявления ошибок приложения в вашем
+        устройстве, чтобы мы смогли исправить, а также выпустить новое обновление приложения для безопасного
+        использования.
+        Реклама. Приложение может содержать рекламу сервиса Admob. Все рекламные баннеры в приложении соответствуют
+        стандартам Google Play. В процессе использования приложения Admob может собирать данные об интересах, странах
+        пользователя, чтобы предоставлять нужную и интересующую рекламу.
+    </string>
+    <string name="politika7">Ответственность Автора</string>
+    <string name="politika8">Автор приложения не несёт ответственности за контент который, по вашему мнению, может
+        шокировать, повлиять на вашу психику или нанести вам какой-либо вред. Все фильмы, весь контент в приложении Film
+        Go содержит авторские права. Фильмы в приложении показываются на плеере видеосервиса Youtube. В приложении
+        встроен Youtube API V3. Лицензия Youtube. В случаи если видео будет недоступно в Youtube или автор ограничит
+        доступ в видео в сервисе Youtube, этот фильм будет также не доступен в нашем приложении. В этом случаи мы
+        обновляем фильм у других авторов или правообладателей.
+    </string>
+    <string name="politika9">Безопасность</string>
+    <string name="politika10">Приложение Film Go не содержит регистрацию пользователей. Приложение Film Go абсолютно
+        безопасно для пользования.
+    </string>
+    <string name="politika11">Контактная информация</string>
+    <string name="politika12">Разработчик приложения: Saymov Alibek
+        По всем вопросам, жалобам и предложениям обращаться по электронной почте saymovalibek1530@gmail.com
+    </string>
+
+
+    <string name="shareApp">Эта программа интересна и бесплатна для проведения свободного времени :)
+        https://play.google.com/store/apps/details?id=com.ali.filmgokino
+    </string>
+    <!--com.ali.filmgokino-->
+
+    <string name="urlPlayApp" translatable="false">
+        https://play.google.com/store/apps/details?id=com.ali.filmgokino
+    </string>
+    <!--<string name="urlGmail" translatable="false">saymovalibek1530@gmail.com</string>-->
+    <!--<string name="urlTme" translatable="false">http://telegram.me/ali_tuit</string>-->
+</resources>

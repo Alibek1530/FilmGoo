@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+            android:id="@+id/DialogImage"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:src="@drawable/iconyou"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+            android:id="@+id/Dialog_Nane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Film Go"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/DialogImage"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/Dialog_Versiya"/>
+    <TextView
+            android:id="@+id/Dialog_Versiya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Версия 2.0"
+            android:gravity="center"
+            android:textSize="13sp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Dialog_Nane"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/Dialog_Avtor"/>
+    <TextView
+            android:id="@+id/Dialog_Avtor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copyright © 2021 Saymov Alibek"
+            android:padding="6dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            app:layout_constraintTop_toBottomOf="@id/Dialog_Versiya"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+    <TextView
+            android:id="@+id/Dialog_Avtor1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All rights reserved"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintTop_toBottomOf="@id/Dialog_Avtor"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+    <Button
+            android:id="@+id/DialogOk"
+            android:text="Ok"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/shape_btn"
+            android:layout_width="74dp"
+            android:layout_height="37dp"
+            app:layout_constraintTop_toBottomOf="@id/Dialog_Avtor1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

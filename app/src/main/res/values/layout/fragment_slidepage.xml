@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:background="#3A914F"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+<TextView
+        android:id="@+id/tty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Alibek"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+/>
+
+</ScrollView>

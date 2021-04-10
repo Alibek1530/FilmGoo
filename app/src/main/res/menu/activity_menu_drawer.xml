@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Главная"/>
+        <item
+                android:id="@+id/nav_zakladka"
+                android:icon="@drawable/avorite_black"
+                android:title="Закладки"/>
+        <item
+                android:id="@+id/nav_kon"
+                android:icon="@drawable/ic_https_black_24dp"
+                android:title="Политика Конфиденциальности"/>
+    </group>
+
+    <item android:title="Инструменты">
+        <menu>
+            <item
+                    android:id="@+id/nav_otsenit"
+                    android:icon="@drawable/rate_review_black"
+                    android:title="Оценить"/>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Поделиться"/>
+
+            <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/info_black"
+                    android:title="О Приложении"/>
+        </menu>
+    </item>
+
+</menu>
